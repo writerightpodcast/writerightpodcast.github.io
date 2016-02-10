@@ -4,6 +4,15 @@ html {
   background: #406A75;
 }
 
+@font-face {
+    font-family: "Porter Sans";
+    src: url("porter-sans-inline-block.ttf") format("truetype");
+}
+
+.porter {
+  font-family: "Porter Sans", "Helvetica", sans-serif, monospace;
+}
+
 .sidebar {
   padding-top: 20px;
   position: fixed;
