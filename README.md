@@ -1,7 +1,6 @@
-# Otter Pop
+# The Write Right Podcast
+## a podcast by the Texas A&M University Writing Center.
 
-The world's greatest Jekyll theme.
+Built on Otter Pop by ![@tybenz](https://twitter.com/tybenz)
 
 Example: <http://tybenz.com>
-
-![](http://jekyllthemes.org/thumbnails/otter-pop.png)
