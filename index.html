@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="posts">
     {% for post in site.posts %}
-    	<a href="{{ site.url }}{{ post.url }}" class="post-link">{{ post.title }} <br> 
+    	<a href="{{ site.url }}{{ post.url }}" class="post-link">{{ post.title }} <br><br><br>  
     		<audio controls>
     			<source src="{{ post.enclosure }}" type="{{ post.type }}">
     		</audio>
