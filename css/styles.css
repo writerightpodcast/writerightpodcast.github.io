@@ -9,8 +9,8 @@
 }
 
 @font-face {
-    font-family: "cash";
-    src: url("clasica.ttf") format("truetype");
+    font-family: "Blenda";
+    src: url("Blenda.otf") format("opentype");
 }
 
 @font-face {
@@ -61,7 +61,7 @@ html {
 }
 
 .wrapper h1 {
-  font-family: "cash";
+  font-family: "Blenda";
   margin-top: 0;
   padding: 50px 70px 0px;
 }
