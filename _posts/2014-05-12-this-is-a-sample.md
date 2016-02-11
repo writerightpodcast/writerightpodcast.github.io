@@ -1,6 +1,10 @@
 ---
 layout: post
 title: Do not read this
+enclosure: http://writerightpodcast.github.io/write_right_logo_mixdown_v4.mp3
+type: audio/mpeg
+length: 768791
+author: Davis Land
 ---
 
 <audio controls>

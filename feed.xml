@@ -2,22 +2,32 @@
 layout: none
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
     <title>{{ site.name | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
+    <link>http://writerightpodcast.github.io</link>
+    <language>en-us</language>
+    <itunes:subtitle>A podcast about how to do words and stuff</itunes:subtitle>
+    <itunes:author>Texas A&amp;M University Writing Center</itunes:author>
+    <itunes:summary></itunes:summary>
+    <itunes:description></itunes:description>
+    <itunes:owner>
+        <itunes:name>Davis Land</itunes:name>
+        <itunes:email>dland95@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="http://writerightpodcast.github.io/podcast_art.png">
+    <itunes:category text="Design" />
     <link>{{ site.url }}</link>
-    <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
     {% for post in site.posts limit:20 %}
-      {% if post.hidden != true %}
         <item>
           <title>{{ post.title | xml_escape }}</title>
+          <itunes:author>{{ post.author }}</itunes:author>
+          <itunes:summary>{{ post.content }}</itunes:summary>
+          <itunes:image href="http://writerightpodcast.github.io/podcast_art.png">
+          <enclosure url = "{{ post.enclosure }}" length="{{ post.length }}" type="post.type"></enclosure>
           <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-          <link>{{ post.rss_link }}</link>
-          <guid isPermaLink="true">{{ post.rss_link }}</guid>
-          <category>{% capture index %}{{ forloop.index | modulo:4 }}{% endcapture %}{% if index == "0" %}color: inherit; display: block; margin-bottom: 10px; text-align: left; font-size: 18px; padding: 20px 30px; border: 2px outset aqua;{% endif %}{% if index == "1" %}color: inherit; display: block; margin-bottom: 10px; text-align: left; font-size: 18px; box-shadow: 0 0 0 1px white, 0 0 0 2px magenta; padding: 20px 30px; border: 1px solid red;{% endif %}{% if index == "2" %}color: inherit; display: block; margin-bottom: 10px; text-align: left; font-size: 18px; padding: 20px 30px; border: 2px groove yellow;{% endif %}{% if index == "3" %}color: inherit; display: block; margin-bottom: 10px; text-align: left; font-size: 18px; padding: 20px 30px; border: 2px dotted red;{% endif %}</category>
+          <itunes:duration>{{ post.length }}</itunes:duration>
         </item>
-      {% endif %}
     {% endfor %}
   </channel>
 </rss>
