@@ -79,7 +79,9 @@ a {
 .post-link {
   display: block;
   position:relative;
+  text-decoration: none;
   font-family: "Blenda";
+  font-size: 25;
   max-width: 900px;
   padding: 20px 30px;
   margin-bottom: 10px;
