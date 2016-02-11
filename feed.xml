@@ -9,13 +9,13 @@ layout: none
     <language>en-us</language>
     <itunes:subtitle>A podcast about how to do words and stuff</itunes:subtitle>
     <itunes:author>Texas A&amp;M University Writing Center</itunes:author>
-    <itunes:summary></itunes:summary>
-    <itunes:description></itunes:description>
+    <itunes:summary>Write Right is a podcast that explores communication and writing issues. Someone please help us think of a better description.</itunes:summary>
+    <itunes:description>Write Right is a podcast that explores communication and writing issues. Someone please help us think of a better description.</itunes:description>
     <itunes:owner>
         <itunes:name>Davis Land</itunes:name>
         <itunes:email>dland95@gmail.com</itunes:email>
     </itunes:owner>
-    <itunes:image href="http://writerightpodcast.github.io/podcast_art.png">
+    <itunes:image href="http://writerightpodcast.github.io/podcast_art.png"/>
     <itunes:category text="Design" />
     <link>{{ site.url }}</link>
     {% for post in site.posts limit:20 %}
