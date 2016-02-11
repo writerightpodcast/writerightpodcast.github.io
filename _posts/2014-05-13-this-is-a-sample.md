@@ -4,7 +4,9 @@ title: This is a sample blog post
 enclosure: http://writerightpodcast.github.io/write_right_logo_mixdown_v4.mp3
 ---
 
-<audio><source src="/write_right_logo_mixdown_v4.mp3" type="audio/mpeg"></audio>
+<audio controls>
+	<source src="/write_right_logo_mixdown_v4.mp3" type="audio/mpeg">
+</audio>
 
 This is a sample episode of Write Right!
 
