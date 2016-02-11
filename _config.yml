@@ -3,5 +3,5 @@ permalink: /:year/:month/:day/:title
 markdown: rdiscount
 exclude: ['.git']
 name: "Write Right"
-description: "a podcast about how to do words and stuff"
+description: "A podcast about how to do words and stuff."
 url: http://writerightpodcast.github.io

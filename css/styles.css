@@ -79,6 +79,7 @@ a {
 .post-body {
   line-height: 1.3em;
   max-width: 700px;
+  padding: 50px 30px;
 }
 
 .post-body img {
@@ -127,30 +128,6 @@ video {
   vertical-align: middle;
   margin-right: 0.5em;
   background-size: 100% 100%;
-}
-
-.icon.doc {
-  background-image:url(/otter-pop/img/doc.png);
-}
-
-.icon.info {
-  background-image:url(/otter-pop/img/info.png);
-}
-
-.icon.code {
-  background-image:url(/otter-pop/img/code.png);
-}
-
-.icon.link {
-  background-image:url(/otter-pop/img/link.png);
-}
-
-.icon.twitter {
-  background-image:url(/otter-pop/img/twitter.png);
-}
-
-.icon.github {
-  background-image:url(/otter-pop/img/github.png);
 }
 
 .nav a {
