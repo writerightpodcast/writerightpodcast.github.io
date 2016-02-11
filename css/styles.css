@@ -1,13 +1,18 @@
-html {
-  font-size: 16px;
-  font-family: monospace;
-  color: #EEE6C8;
-  background: #406A75;
+@font-face {
+  font-family: "Ostrich";
+  src: url("OstrichSansInline-Regular.otf") format("opentype");
 }
 
 @font-face {
     font-family: "Porter Sans";
     src: url("porter-sans-inline-block.ttf") format("truetype");
+}
+
+html {
+  font-size: 16px;
+  font-family: "Ostrich", sans-serif, monospace;
+  color: #EEE6C8;
+  background: #406A75;
 }
 
 .porter {
