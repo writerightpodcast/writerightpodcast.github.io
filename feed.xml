@@ -22,7 +22,7 @@ layout: none
         <item>
           <title>{{ post.title | xml_escape }}</title>
           <itunes:author>{{ post.author }}</itunes:author>
-          <itunes:summary>{{ post.content }}</itunes:summary>
+          <itunes:summary>{{ post.summary }}</itunes:summary>
           <itunes:image href="http://writerightpodcast.github.io/podcast_art.png"/>
           <enclosure url = "{{ post.enclosure }}" length="{{ post.length }}" type="post.type"></enclosure>
           <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
