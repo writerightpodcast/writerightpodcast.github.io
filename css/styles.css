@@ -18,6 +18,7 @@ html {
 .porter {
   font-size: 25px;
   font-family: "Porter Sans", "Helvetica", sans-serif, monospace;
+  max-width: 120px;
 }
 
 .sidebar {
@@ -79,7 +80,7 @@ a {
 .post-body {
   line-height: 1.3em;
   max-width: 700px;
-  padding: 50px 30px;
+  padding: 0px 70px;
 }
 
 .post-body img {
@@ -204,5 +205,8 @@ video {
 @media screen and (max-width: 33.125rem) {
   .logo img {
     max-width: 60%;
+  }
+  .porter {
+    font-size: 16px;
   }
 }
