@@ -18,7 +18,7 @@ html {
 .porter {
   font-size: 15px;
   font-family: "Porter Sans", "Helvetica", sans-serif, monospace;
-  max-width: 336;
+  max-width: 100px;
 }
 
 .sidebar {
@@ -56,7 +56,7 @@ html {
 
 body {
   margin: 0;
-  padding: 0 30px 30px;
+  padding: 30px 30px 30px;
 }
 
 a {
