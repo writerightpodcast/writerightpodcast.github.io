@@ -8,9 +8,19 @@
     src: url("porter-sans-inline-block.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "cash";
+    src: url("clasica.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "linux";
+  src: url("LinLibertine_R.ttf") format("truetype");
+}
+
 html {
   font-size: 16px;
-  font-family: "Fragment", sans-serif, monospace;
+  font-family: "linux", sans-serif, monospace;
   color: #EEE6C8;
   background: #406A75;
 }
@@ -51,6 +61,7 @@ html {
 }
 
 .wrapper h1 {
+  font-family: "cash";
   margin-top: 0;
   padding: 50px 70px 0px;
 }
