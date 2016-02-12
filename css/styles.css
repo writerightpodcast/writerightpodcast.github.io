@@ -34,6 +34,7 @@ html {
 .right-side {
   padding-top: 20px;
   postion: fixed;
+  display: block;
   max-width: 336px;
 }
 
