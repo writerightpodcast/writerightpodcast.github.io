@@ -31,6 +31,12 @@ html {
   position: fixed;
 }
 
+.right-side {
+  padding-top: 20px;
+  postion: fixed;
+  right: ;
+}
+
 .logo {
   display: block;
   max-width: 336px;
@@ -130,10 +136,6 @@ a {
   width: 100%;
   float: right;
   height: 100px;
-}
-
-.footer img {
-  max-width: 336px;
 }
 
 blockquote {
