@@ -133,9 +133,9 @@ a {
 
 footer {
   position: fixed;
-  float: right;
   bottom: 0;
   width: 100%;
+  float: right;
   height: 60px;
 }
 
