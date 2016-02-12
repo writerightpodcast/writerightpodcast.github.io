@@ -131,7 +131,7 @@ a {
   font-size: 16px;
 }
 
-footer {
+.footer {
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -139,7 +139,7 @@ footer {
   height: 60px;
 }
 
-footer img {
+.footer img {
   max-width: 336px;
 }
 
