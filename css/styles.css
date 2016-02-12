@@ -14,12 +14,12 @@
 }
 
 @font-face {
-  font-family: "linux";
-  src: url("LinLibertine_R.ttf") format("truetype");
+  font-family: "liberation";
+  src: url("LiberationSans-Regular.ttf") format("truetype");
 }
 
 html {
-  font-family: "Helvetica", sans-serif, "Arial", "linux", monospace;
+  font-family: "liberation", "Helvetica", sans-serif, "Arial", monospace;
   color: #EEE6C8;
   background: #406A75;
 }
