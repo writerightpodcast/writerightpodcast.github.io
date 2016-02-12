@@ -19,7 +19,7 @@
 }
 
 html {
-  font-family: "linux", sans-serif, monospace;
+  font-family: "Helvetica", sans-serif, "Arial", "linux", monospace;
   color: #EEE6C8;
   background: #406A75;
 }
@@ -97,6 +97,7 @@ a {
 }
 
 .post-link h3 {
+  font-family: "Blenda";
   font-size: 12px;
   text-align: right;
   padding-top: 0px;
