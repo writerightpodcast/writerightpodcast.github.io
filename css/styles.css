@@ -1,9 +1,4 @@
 @font-face {
-  font-family: "Fragment";
-  src: url("Fragmentcore.otf") format("opentype");
-}
-
-@font-face {
     font-family: "Porter Sans";
     src: url("porter-sans-inline-block.ttf") format("truetype");
 }
@@ -135,7 +130,6 @@ footer {
 
 footer img {
   max-width: 336px;
-
 }
 
 blockquote {
