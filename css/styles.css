@@ -136,6 +136,9 @@ a {
   max-width: 336px;
 }
 
+.audio {
+}
+
 blockquote {
   font-size: 1.2em;
   font-style: italic;
@@ -144,7 +147,6 @@ blockquote {
   padding: 0 1em;
   border-left: 4px dashed blue;
 }
-
 
 @media screen and (max-width: 57.25rem) {
   .sidebar {
@@ -165,7 +167,6 @@ blockquote {
     text-align: center;
   }
 
-
   .logo img {
     display: block;
     max-width: 100%;
@@ -175,6 +176,10 @@ blockquote {
   .footer {
     position: static;
     padding-top: 20px;
+  }
+
+  .audio {
+    width: auto;
   }
 }
 

@@ -18,6 +18,12 @@
     <div class="post-body">
       {{ content }}
       <br><br><br>
+      <center>
+        <audio class="audio" controls>
+          <source src="{{ post.enclosure}}" type="{{ post.type }}">
+        </audio>
+      </center>
+      <br><br><br>
       {% if page.previous.url %}
         <a class="prev" href="{{page.previous.url}}"> &laquo;Previous </a>
       {% endif %}
