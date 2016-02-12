@@ -6,7 +6,7 @@ layout: default
 	    {% for post in site.posts %}
 	    	<a href="{{ site.url }}{{ post.url }}" class="post-link">
 	    		<h1>{{ post.title }}</h1>
-
+	    		<h2>{{ post.content | truncatewords:75}}</h2><br>
 	    		<h3>{{ post.date | date_to_string}}</h3>
 	    	</a>
 		{% endfor %}
