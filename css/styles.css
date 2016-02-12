@@ -34,7 +34,7 @@ html {
 .right-side {
   padding-top: 20px;
   postion: fixed;
-  right: ;
+  max-width: 336px;
 }
 
 .logo {
