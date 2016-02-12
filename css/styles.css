@@ -125,7 +125,7 @@ a {
 }
 
 .footer {
-  position: fixed;
+  position: relative;
   bottom: 0;
   width: 100%;
   float: right;
@@ -176,10 +176,6 @@ blockquote {
   .footer {
     position: static;
     padding-top: 20px;
-  }
-
-  .audio {
-    width: auto;
   }
 }
 
