@@ -72,13 +72,14 @@ a {
 
 .prev {
   font-family: "Blenda";
-  font-size: 12px;
+  font-size: 20px;
   text-align: left;
 }
 
 .next {
   font-family: "Blenda";
-  font-size: 12px;
+  font-size: 20px;
+  width:100%;
   text-align: right;
 }
 
