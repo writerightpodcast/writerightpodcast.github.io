@@ -27,6 +27,7 @@ html {
 }
 
 .sidebar {
+  margin: 0 auto;
   padding-top: 20px;
   position: fixed;
 }
@@ -48,6 +49,7 @@ html {
 }
 
 .wrapper {
+  margin: 0 auto;
   padding-right: 50px;
   position: relative;
   margin-left: 400px;
