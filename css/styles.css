@@ -32,7 +32,8 @@ html {
 }
 
 .uwc-logo {
-  padding-top: 20px;
+  padding-bottom: 20px;
+  bottom: 0;
   position: fixed;
   float: right;
 }
