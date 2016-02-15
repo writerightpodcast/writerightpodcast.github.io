@@ -1,3 +1,4 @@
+pygments: true
 permalink: /:year/:month/:day/:title
 exclude: ['.git']
 name: "Write Right"
