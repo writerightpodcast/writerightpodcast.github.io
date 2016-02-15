@@ -1,5 +1,4 @@
 permalink: /:year/:month/:day/:title
-markdown: rdiscount
 exclude: ['.git']
 name: "Write Right"
 description: "Write Right"
