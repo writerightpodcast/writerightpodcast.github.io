@@ -2,5 +2,5 @@ permalink: /:year/:month/:day/:title
 markdown: rdiscount
 exclude: ['.git']
 name: "Write Right"
-description: "{{ page.title }} | Write Right"
+description: "Write Right"
 url: http://writerightpodcast.github.io
