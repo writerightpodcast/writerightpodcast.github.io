@@ -17,6 +17,7 @@ layout: none
     <itunes:image href="http://writerightpodcast.github.io/podcast_art.png"/>
     <itunes:category text="Arts" />
     <itunes:explicit>no</itunes:explicit>
+    <itunes:copyright text="Texas A&amp;M University" />
     <link>{{ site.url }}</link>
     {% for post in site.posts%}
         <item>
