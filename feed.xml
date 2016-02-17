@@ -9,22 +9,22 @@ layout: none
     <language>en-us</language>
     <itunes:subtitle>A podcast about how to do words and stuff</itunes:subtitle>
     <itunes:author>Texas A&amp;M University Writing Center</itunes:author>
-    <itunes:summary>Write Right is a podcast that explores communication and writing issues. Someone please help us think of a better description.</itunes:summary>
-    <itunes:description>Write Right is a podcast that explores communication and writing issues. Someone please help us think of a better description.</itunes:description>
+    <itunes:summary>Write Right is a podcast that explores communication and writing issues.</itunes:summary>
     <itunes:owner>
         <itunes:name>Davis Land</itunes:name>
         <itunes:email>dland95@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:image href="http://writerightpodcast.github.io/podcast_art.png"/>
-    <itunes:category text="Design" />
+    <itunes:category text="Arts" />
     <link>{{ site.url }}</link>
-    {% for post in site.posts limit:20 %}
+    {% for post in site.posts%}
         <item>
           <title>{{ post.title | xml_escape }}</title>
           <itunes:author>{{ post.author }}</itunes:author>
           <itunes:summary>{{ post.summary }}</itunes:summary>
+          <itunes:explicit>no</itunes:explicit>
           <itunes:image href="http://writerightpodcast.github.io/podcast_art.png"/>
-          <enclosure url = "{{ post.enclosure }}" length="{{ post.length }}" type="post.type"></enclosure>
+          <enclosure url = "{{ post.enclosure }}" length="{{ post.length }}" type="{{ post.type }}"></enclosure>
           <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
           <itunes:duration>{{ post.length }}</itunes:duration>
         </item>
