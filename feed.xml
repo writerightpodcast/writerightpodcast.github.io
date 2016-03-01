@@ -9,7 +9,7 @@ layout: none
     <language>en-us</language>
     <itunes:subtitle>A podcast about how to do words and stuff</itunes:subtitle>
     <itunes:author>Texas A&amp;M University Writing Center</itunes:author>
-    <itunes:summary>Write Right is a podcast that explores communication and writing issues.</itunes:summary>
+    <itunes:summary>Write Right is a podcast that explores communication and writing issues, as well as being a human that does those thigns.</itunes:summary>
     <itunes:owner>
         <itunes:name>Davis Land</itunes:name>
         <itunes:email>dland95@gmail.com</itunes:email>
@@ -19,7 +19,7 @@ layout: none
     <itunes:explicit>no</itunes:explicit>
     <itunes:copyright text="Texas A&amp;M University" />
     <link>{{ site.url }}</link>
-    {% for post in site.posts%}
+    {% for post in site.posts %}
         <item>
           <title>{{ post.title | xml_escape }}</title>
           <itunes:author>{{ post.author }}</itunes:author>
