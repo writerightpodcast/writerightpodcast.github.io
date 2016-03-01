@@ -36,7 +36,9 @@
           <source src="{{ page.enclosure}}" type="{{ page.type }}">
         </audio>
       </center>
-      <br><br><br>
+      <br><br>
+      {{ page.bumper }}
+      <br>
       {% if page.previous.url %}
         <a class="prev" href="{{page.previous.url}}"> &laquo;Previous </a>
       {% endif %}
