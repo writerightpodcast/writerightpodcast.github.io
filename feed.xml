@@ -26,7 +26,7 @@ layout: none
           <itunes:summary>{{ post.summary }} {{ post.bumper }}</itunes:summary>
           <itunes:image href="http://writerightpodcast.github.io/podcast_art.png"/>
           <enclosure url = "{{ post.enclosure }}" length="{{ post.length }}" type="{{ post.type }}"></enclosure>
-          <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+          <pubDate>{{ post.date | date: "%a, %d %b" }}</pubDate>
           <itunes:duration>{{ post.duration }}</itunes:duration>
         </item>
     {% endfor %}
