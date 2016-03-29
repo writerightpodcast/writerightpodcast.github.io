@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta property="og:url"                content="http://writerightpodcast.github.io{{ page.url }}" />
+    <meta property="og:url"                content="http://writerightpodcast.github.io/askus" />
     <meta property="article:author"        content="Texas A&amp;M University Writing Center" />
     <meta property="og:type"               content="article" />
-    <meta property="og:title"              content="{{ page.title }}" />
-    <meta property="og:description"        content="{{ page.summary }}" />
+    <meta property="og:title"              content="Have a topic or question for an episode of Write Right?" />
+    <meta property="og:description"        content="" />
     <meta property="og:image"              content="/img/facebook.png" />
-    <title>{{ site.description | Write Right Podcast}}</title>
+    <title>Write Right</title>
     <link href="/css/styles.css" rel="stylesheet" type="text/css">
     <link rel="icon" 
         type="image/png" 
@@ -27,25 +27,9 @@
     </a>
   </div>
   <div class="wrapper">
-    <h1>{{ page.title }}</h1>
+    <h1>Have a topic or question for an episode of Write Right?</h1>
     <div class="post-body">
-      {{ page.summary }}
-      <br>
-      <center>
-        <audio controls>
-          <source src="{{ page.enclosure}}" type="{{ page.type }}">
-        </audio>
-      </center>
-      <br>
-      {{ content }}
-      {{ page.bumper }}
-      <br><br>
-      {% if page.previous.url %}
-        <a class="prev" href="{{page.previous.url}}"> &laquo;Previous </a>
-      {% endif %}
-      {% if page.next.url %}
-        <a class="next" href="{{page.next.url}}"> Next&raquo; </a>
-      {% endif %}
+      
     </div>
   </div>
 </body>

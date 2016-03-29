@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta property="og:url"                content="http://writerightpodcast.github.io{{ page.url }}" />
+    <meta property="og:url"                content="http://writerightpodcast.github.io/2016/02/15/trailer" />
     <meta property="article:author"        content="Texas A&amp;M University Writing Center" />
     <meta property="og:type"               content="article" />
-    <meta property="og:title"              content="{{ page.title }}" />
-    <meta property="og:description"        content="{{ page.summary }}" />
+    <meta property="og:title"              content="Write Right coming soon" />
+    <meta property="og:description"        content="Write Right is a podcast about becoming great at writing and communication. Subscribe!" />
     <meta property="og:image"              content="/img/facebook.png" />
-    <title>{{ site.description | Write Right Podcast}}</title>
+    <title>Write Right</title>
     <link href="/css/styles.css" rel="stylesheet" type="text/css">
     <link rel="icon" 
         type="image/png" 
@@ -27,25 +27,24 @@
     </a>
   </div>
   <div class="wrapper">
-    <h1>{{ page.title }}</h1>
+    <h1>Write Right coming soon</h1>
     <div class="post-body">
-      {{ page.summary }}
+      Write Right is a podcast about becoming great at writing and communication. Subscribe!
       <br>
       <center>
         <audio controls>
-          <source src="{{ page.enclosure}}" type="{{ page.type }}">
+          <source src="https://archive.org/download/channel_trailer_mixdown/ChannelTrailer_mixdown.mp3" type="audio/mpeg">
         </audio>
       </center>
       <br>
-      {{ content }}
-      {{ page.bumper }}
+      
+
+      Write Right is a production of the Texas A&amp;M University Writing Center, a service of the Department of Undergraduate Studies. The UWC is dedicated to helping students become better communicators through whichever medium they are working in. Open to all Texas A&amp;M students, the writing center offers both face-to-face and online consultations. Make an appointment at writingcenter.tamu.edu. Find us on Twitter and Instagram as @tamuwc. Music in this episode came from Podington Bear.
       <br><br>
-      {% if page.previous.url %}
-        <a class="prev" href="{{page.previous.url}}"> &laquo;Previous </a>
-      {% endif %}
-      {% if page.next.url %}
-        <a class="next" href="{{page.next.url}}"> Next&raquo; </a>
-      {% endif %}
+      
+      
+        <a class="next" href="/2016/03/20/block"> Next&raquo; </a>
+      
     </div>
   </div>
 </body>
