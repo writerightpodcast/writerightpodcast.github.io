@@ -162,6 +162,7 @@ blockquote {
     position: static;
     margin: auto;
     max-width: 21rem;
+    padding-top: 20px;
   }
 
   .wrapper {
