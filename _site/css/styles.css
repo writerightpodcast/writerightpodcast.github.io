@@ -89,7 +89,7 @@ a {
   position:relative;
   text-decoration: none;
   max-width: 900px;
-  padding: 10px 30px;
+  padding: 0px 30px;
   margin-bottom: 10px;
   border: 2px dotted #EEE6C8;
 }
@@ -158,9 +158,16 @@ blockquote {
     max-width: 21rem;
   }
 
+  .uwc-logo {
+    position: static;
+    margin: auto;
+    max-width: 21rem;
+  }
+
   .wrapper {
     margin-left: auto;
     margin-right: auto;
+    padding: 20px 0 0 0;
     max-width: 29rem;
   }
 
@@ -171,37 +178,42 @@ blockquote {
   }
 
   .logo img {
-    display: block;
+    display: inline-block;
     max-width: 100%;
     margin: 4rem auto 0;
-  }
-
-  .uwc-logo {
-    position: static;
-    display: inline-block;
-    margin: auto;
-    max-width: 100%
   }
 
   .footer {
     position: static;
     padding-top: 20px;
   }
+
+  .post-link h2 {
+    text-align: center;
+  }
+
+  .post-link h3 {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 480px) {
-  .logo img {
-    max-width: 60%;
-  }
   .porter {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .post-link h1 {
     font-size: 22px;
   }
+}
 
-  .uwc-logo img {
-    max-width: 75%;
+@media screen and (max-width: 300px) {
+  .post-link h1 {
+    padding: 0px 20px 10px 0px;
+  }
+
+  .post-link h2 {
+    text-align: center;
+    padding: 0px 20px 10px 0px;
   }
 }
