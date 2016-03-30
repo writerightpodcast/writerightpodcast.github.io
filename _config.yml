@@ -1,5 +1,5 @@
 highlighter: rouge
-permalink: /:year/:month/:day/:title
+permalink: /:year/:title/
 exclude: ['.git']
 name: "Write Right"
 description: "Write Right"
