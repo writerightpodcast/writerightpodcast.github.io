@@ -60,8 +60,9 @@ html {
   padding: 10px 20px 10px 20px;
 }
 
-.disqus_thread {
-  width: 100%
+#disqus_thread {
+  padding: 10px 20px 10px 20px;
+  max-width: 700px;
 }
 
 body {
