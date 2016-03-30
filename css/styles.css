@@ -60,6 +60,10 @@ html {
   padding: 10px 20px 10px 20px;
 }
 
+.disqus_thread {
+  width: 100%
+}
+
 body {
   margin: 0;
   padding: 20px 30px 30px;
