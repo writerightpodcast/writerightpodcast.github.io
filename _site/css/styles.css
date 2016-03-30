@@ -32,7 +32,6 @@ html {
   padding-bottom: 20px;
   bottom: 0;
   position: fixed;
-  float: right;
 }
 
 .logo {
@@ -152,7 +151,7 @@ blockquote {
   border-left: 4px dashed blue;
 }
 
-@media screen and (max-width: 57.25rem) {
+@media screen and (max-width: 768px) {
   .sidebar {
     position: static;
     margin: auto;
@@ -179,7 +178,7 @@ blockquote {
 
   .uwc-logo {
     position: static;
-    display: block;
+    display: inline-block;
     margin: auto;
     max-width: 100%
   }
@@ -190,12 +189,16 @@ blockquote {
   }
 }
 
-@media screen and (max-width: 33.125rem) {
+@media screen and (max-width: 480px) {
   .logo img {
     max-width: 60%;
   }
   .porter {
-    font-size: 16px;
+    font-size: 15px;
+  }
+
+  .post-link h1 {
+    font-size: 22px;
   }
 
   .uwc-logo img {
