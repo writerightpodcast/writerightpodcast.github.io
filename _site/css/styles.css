@@ -12,8 +12,8 @@
 
 html {
   font-family: 'Noticia Text', serif;
-  color: #EEE6C8;
-  background: #406A75;
+  color: #FFFFFF;
+  background: #500000;
 }
 
 .porter {
@@ -91,7 +91,7 @@ a {
   max-width: 900px;
   padding: 0px 30px;
   margin-bottom: 10px;
-  border: 2px dotted #EEE6C8;
+  border: 2px dotted #FFFFFF;
 }
 
 .post-link h1 {
@@ -114,8 +114,8 @@ a {
 }
 
 .post-link:hover {
-  background: #EEE6C8;
-  color: #406A75;
+  background: #FFFFFF;
+  color: #500000;
 }
 
 .post-body {
