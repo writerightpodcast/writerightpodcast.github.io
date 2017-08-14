@@ -1,9 +1,9 @@
 ---
 layout: post
-title: The Big One: Writing a Dissertation
+title: "The Big One: Writing a Dissertation"
 author: Davis Land
 summary: 50% of students who start a Ph.D. program don't finish. What can we do about it?
-bumper: Write Right is a production of the Texas A&amp;M University Writing Center, a service of the Department of Undergraduate Studies. The UWC is dedicated to helping students become better communicators through whichever medium they are working in. Open to all Texas A&amp;M students, the writing center offers both face-to-face and online consultations. Make an appointment at writingcenter.tamu.edu. Find us on Twitter and Instagram as @tamuwc. Music in this episode came from Podington Bear & Anitek.
+bumper: Write Right is a production of the Texas A&amp;M University Writing Center, a service of the Department of Undergraduate Studies. The UWC is dedicated to helping students become better communicators through whichever medium they are working in. Open to all Texas A&amp;M students, the writing center offers both face-to-face and online consultations. Make an appointment at writingcenter.tamu.edu. Find us on Twitter and Instagram as @tamuwc.
 ---
 <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/337874353&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 
